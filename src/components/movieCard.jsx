@@ -3,16 +3,16 @@ import React from 'react';
 
 const MovieCard = ({ movie }) => (
     <div className="movie">
-      <div>
+      <div className="movie-year">
         <p>{movie.Year}</p>
       </div>
-      <div>
+      <div className="movie-img">
         <img
           src={movie.Poster !== 'N/A' ? movie.Poster : 'https://via.placeholder.com/400'}
           alt={movie.Title}
         />
       </div>
-      <div>
+      <div className="movie-title">
         <span>{movie.Type}</span>
         <h3>{movie.Title}</h3>
       </div>

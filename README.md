@@ -11,7 +11,8 @@
 - HTML
 - CSS
 - Javascript
-- Leaderboard API
+- React
+- omdbapi API
 - gitflow
 
 

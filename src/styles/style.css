@@ -6,12 +6,89 @@
 
 body {
   background-color: aqua;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.first-div {
+.app {
   display: flex;
-  justify-content: center;
-  background-color: brown;
-  gap: 12px;
-  padding: 120px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-container {
+  margin-left: 10px;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+.movie {
+  position: relative;
+}
+
+.movie-year {
+  position: absolute;
+  top: 20px;
+  color: white;
+  text-align: left;
+  background-color: rgba(82, 82, 82, 0.3);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 70px;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.movie-title {
+  position: absolute;
+  top: 240px;
+  color: white;
+  text-align: left;
+  background-color: rgba(82, 82, 82, 0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 240px;
+  height: 80px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+img {
+  border-radius: 8px;
+  width: 240px;
+  height: 320px;
+  transition: width 100ms, height 200ms;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid:
+      'A B C d'
+      'D E F h'
+      'I J';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    justify-content: end;
+  }
 }
