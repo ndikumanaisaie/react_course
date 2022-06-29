@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Leaderboard
+## Filmpire
 
 > This website is designed entirely in react. It lets users search for their prefered movies from an api.
 
 ## Below is the screenshot of my work
-![Filmpire](https://github.com/ndikumanaisaie/Leaderboard/blob/feature/final_touch/src/images/shot.png)
+![Filmpire](https://ndikumanaisaie.github.io/react_course/blob/filmpire_demo/src/images/shot1.png)
 
 ## Built with
 - HTML
