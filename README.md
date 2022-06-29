@@ -5,7 +5,7 @@
 > This website is designed entirely in react. It lets users search for their prefered movies from an api.
 
 ## Below is the screenshot of my work
-![Filmpire](https://ndikumanaisaie.github.io/react_course/blob/filmpire_demo/src/images/shot1.png)
+![Filmpire](https://github.com/ndikumanaisaie/react_course/blob/master/src/images/shot1.png)
 
 ## Built with
 - HTML
