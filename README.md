@@ -25,7 +25,7 @@
 - LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## Link to URL on browser
-- [Filmpire](https://ndikumanaisaie.github.io/react_course/dist)
+- [Filmpire](https://ndikumanaisaie.github.io/react_course/dist/)
 
 ## Link to URL on gitHub
 - [Filmpire](https://github.com/ndikumanaisaie/react_course.git)
