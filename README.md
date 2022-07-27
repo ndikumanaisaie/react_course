@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Setup
 clone: run `git clone https://github.com/ndikumanaisaie/react_course.git`
-Move to cloned folder: run git cd TO-DO-LIST.
+Move to cloned folder: run git cd react_course.
 
 ## Install
 
